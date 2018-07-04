@@ -14,8 +14,25 @@
        <zipcode>H1S2A4</zipcode>
     </address>
   </profile>
-  <experience>
-  </experience>
+  <experiences>
+    <experience>
+      <date>2017-today</date>
+      <position>Devops and Application Support Analyst</position>
+      <company>Societe Generale Corporate Investment Banking</company>
+      <location>Montreal, QC</location>
+      <tasks>
+        <task>Writing python and bash script for task automation</task>
+        <task>Providing support for corporate clients</taks>
+        <task>Monitoring productions servers</task>
+      </tasks>
+    </experience>
+    <experience>
+      <date>2017</date>
+      <position>Python programming tutor</position>
+      <company>College de Maisonneuve</company>
+      <location>Montreal, QC</location>
+    </experience>
+  </experiences>
   <education>
     <edu>
       <date>2009-2014</date>
