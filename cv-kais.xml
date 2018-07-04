@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cv>
+  <profile>
+    <name>Kais Ben Fredj</name>
+    <phone>5146926004</phone>
+    <email>kaisinux@gmail.com</email>
+    <address>
+       <civic>7250</civic>
+       <street>Boulevard Lacordaire</street>
+       <appartment>15</appartment>
+       <city>Saint-Leonard</city>
+       <province>QC</province>
+       <country>Canada</country>
+       <zipcode>H1S2A4</zipcode>
+    </address>
+  </profile>
+  <experience>
+  </experience>
+  <education>
+    <edu>
+      <date>2009-2014</date>
+      <diploma>Ph.D. in Telecommunications</diploma>
+      <university>Universite du Quebec</university>
+      <location>Montreal, QC<location>
+    </edu>
+    <edu>
+      <date>2007-2008</date>
+      <diploma>M.Sc. in Telecommunications</diploma>
+      <university>Universite du Quebec</university>
+      <location>Montreal, QC<location>
+    </edu>
+    <edu>
+      <date>2003-2006</date>
+      <diploma>B.Sc. in Electrical Engineering</diploma>
+      <university>Ecole Superieure des Communications</university>
+      <location>Ariana, Tunisia<location>
+    </edu>
+    <edu>
+      <date>2001-2003</date>
+      <diploma>Speciality diplome in Mathematics and Physics</diploma>
+      <university>Institut Preparatoire aux Etudes d'Ingenieurs de Tunis</university>
+      <location>Tunis, Tunisia<location>
+    </edu>
+  </education>
+</cv>
