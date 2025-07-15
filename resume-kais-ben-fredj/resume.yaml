@@ -1,0 +1,115 @@
+name: Kaïs Ben Fredj
+contact:
+  address: 15-7250 Boulevard Lacordaire, Montréal, QC H1S 2A4
+  phone: "+1 (514) 692-6004"
+  email: kais.benfredj@gmail.com
+  linkedin: linkedin.com/in/kais-benfredj
+  citizenship: Canadian
+  visa_status: No Gulf visa at the moment
+  languages:
+    - Arabic (Native)
+    - English (Professional)
+    - French (Professional)
+
+summary: >
+  Senior software and QA engineer with 15+ years of experience in full-stack development, DevOps, test automation, data systems, and research. 
+  Expertise in C#, Python, SQL, Java, and JavaScript. Strong track record of building high-quality enterprise applications, automating ETL processes, 
+  and supporting CI/CD pipelines. Experienced in Agile teams, mentoring developers, and contributing to quality gates and deployment readiness.
+
+technical_skills:
+  programming_languages: [Python, C#, Java, JavaScript, SQL, Bash, HTML, CSS]
+  frameworks: [React, Node.js, Angular, Django, ASP.NET]
+  automation_devops: [Jenkins, Git, Azure DevOps, Autosys, CI/CD pipelines, Selenium (conceptual)]
+  databases: [MS SQL Server, MySQL, PostgreSQL, SQLite, SAP B1 Database]
+  platforms: [Windows, Linux]
+  tools: [Visual Studio 2022, DevExpress, SSMS, Jira, SAP Business One, SSIS]
+  methodologies: [Agile, Scrum, DevOps, Exploratory Testing]
+
+experience:
+  - title: Software Developer
+    company: Hypertec Group
+    location: Montréal, QC
+    start: 2024-10
+    end: Present
+    bullets:
+      - Developed internal enterprise applications using C# and SQL, aligned with business process automation.
+      - Integrated solutions with SAP Business One using its API and database to streamline CRM and operations.
+      - Used Visual Studio 2022, DevExpress, and SSMS for development, reporting, and debugging.
+      - Created and optimized stored procedures, complex SQL queries, and views for real-time reporting.
+      - Provided internal training seminars in Python, mentoring colleagues in scripting and data workflows.
+      - Collaborated with QA engineers to support UAT cycles and post-deployment regression testing.
+      - Participated in Agile sprints, peer reviews, technical grooming, and system documentation.
+
+  - title: Full-Stack Developer
+    company: Société Générale
+    location: Montréal, QC
+    start: 2022-01
+    end: 2024-10
+    bullets:
+      - Developed scalable front-end and back-end systems using React, Node.js, and SQL Server.
+      - Migrated legacy SQL procedures into Azure Data Factory pipelines, improving ETL performance by 40%.
+      - Built automation scripts with Python and Bash, reducing manual report generation time by 50%.
+      - Designed and deployed CI/CD workflows in Azure DevOps and maintained DEV/UAT environments.
+      - Participated in Level 3 production support, triaging issues and ensuring SLA compliance.
+      - Partnered with QA teams to validate test data, run regression checks, and resolve environment issues.
+      - Collaborated in Agile Scrum teams, contributing to planning, retrospectives, and delivery.
+
+  - title: DevOps / Application Support Analyst
+    company: CGI Inc. / Société Générale
+    location: Montréal, QC
+    start: 2017-08
+    end: 2022-01
+    bullets:
+      - Automated ETL pipelines and support scripts using Python, SQL, Bash, and AWS Lambda.
+      - Used Nagios and in-house scripts to monitor uptime and trigger alerts for production systems.
+      - Provided Tier 2/3 support for financial applications, focusing on data quality and SLA adherence.
+      - Led build/release efforts using Jenkins, Git, and documentation with Confluence.
+      - Coordinated with QA and business teams to validate test scenarios and prepare release packages.
+      - Created runbooks, knowledge bases, and incident postmortems to standardize responses.
+      - Participated in disaster recovery plan design and failover testing.
+
+  - title: Server Programming / Python Mentor (Part-Time)
+    company: Collège de Maisonneuve
+    location: Montréal, QC
+    start: 2017-01
+    end: 2017-08
+    bullets:
+      - Delivered lectures on Python, scripting, OS fundamentals, and full-stack development concepts.
+      - Led lab-based exercises on Linux systems, Flask, HTTP fundamentals, and client-server architecture.
+      - Designed assessments and personalized feedback to monitor and support student progress.
+      - Encouraged collaborative learning through pair programming and group projects.
+
+  - title: Scientist / Research Assistant
+    company: McGill University
+    location: Montréal, QC
+    start: 2014-09
+    end: 2015-06
+    bullets:
+      - Developed signal processing algorithms for interference suppression and channel estimation in 5G.
+      - Simulated wireless system models in MATLAB and evaluated spectral efficiency gains.
+      - Delivered technical presentations and maintained experiment documentation for project stakeholders.
+      - Collaborated with Ph.D. researchers and faculty to align simulation outcomes with academic goals.
+
+  - title: Research Scientist / Assistant
+    company: Université du Québec – INRS
+    location: Montréal, QC
+    start: 2007-01
+    end: 2014-05
+    bullets:
+      - Conducted theoretical and simulation-based research on collaborative cognitive radio networks.
+      - Modeled and tested OFDM-based resource allocation strategies for multi-user environments.
+      - Developed MATLAB simulators for evaluating performance under dynamic spectrum conditions.
+      - Authored technical papers, reports, and contributed to academic journal submissions.
+
+education:
+  - degree: Ph.D. in Telecommunications
+    institution: Université du Québec – INRS
+    year: 2014
+
+  - degree: M.Sc. in Telecommunications
+    institution: Université du Québec – INRS
+    year: 2009
+
+  - degree: B.Sc. / Engineer National Diploma in Telecommunications
+    institution: Sup’Com, Tunisia
+    year: 2006
