@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ resume.name }} - Resume</title>
+  <style>
+    body { font-family: sans-serif; margin: 40px; }
+    h1 { color: #444; }
+    h2 { margin-top: 20px; }
+    ul { padding-left: 20px; }
+  </style>
+</head>
+<body>
+  <h1>{{ resume.name }}</h1>
+  <p>{{ resume.contact.email }} | {{ resume.contact.phone }} | {{ resume.contact.linkedin }}</p>
+
+  <h2>Summary</h2>
+  <p>{{ resume.summary }}</p>
+
+  <h2>Technical Skills</h2>
+  <ul>
+    {% for section, skills in resume.technical_skills.items() %}
+    <li><strong>{{ section.replace("_", " ").title() }}:</strong> {{ skills | join(', ') }}</li>
+    {% endfor %}
+  </ul>
+
+  <h2>Experience</h2>
+  {% for job in resume.experience %}
+    <h3>{{ job.title }} – {{ job.company }}</h3>
+    <p><em>{{ job.location }} | {{ job.start }} – {{ job.end }}</em></p>
+    <ul>
+      {% for bullet in job.bullets %}
+      <li>{{ bullet }}</li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+
+  <h2>Education</h2>
+  <ul>
+    {% for edu in resume.education %}
+    <li>{{ edu.degree }}, {{ edu.institution }} ({{ edu.year }})</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
